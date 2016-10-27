@@ -46,3 +46,7 @@ var_dump($ipAnonymizer->anonymize('2a03:2880:2110:df07:face:b00c::1'));
 var_dump($ipAnonymizer->anonymize('2610:28:3090:3001:dead:beef:cafe:fed3'));
 // returns 2610:28:3090:3001::
 ```
+
+## License
+
+This library is licensed under the MIT License. See the LICENSE file for the full license.
