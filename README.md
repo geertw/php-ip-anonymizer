@@ -1,6 +1,6 @@
-[![Latest Stable Version](https://img.shields.io/packagist/v/geertw/ip-anonymizer.svg)](https://packagist.org/packages/interexperts/balancecalculator)
-[![Total Downloads](https://img.shields.io/packagist/dt/geertw/ip-anonymizer.svg)](https://packagist.org/packages/interexperts/balancecalculator)
-[![License](https://img.shields.io/packagist/l/geertw/ip-anonymizer.svg)](https://packagist.org/packages/interexperts/balancecalculator)
+[![Latest Stable Version](https://img.shields.io/packagist/v/geertw/ip-anonymizer.svg)](https://packagist.org/packages/geertw/ip-anonymizer)
+[![Total Downloads](https://img.shields.io/packagist/dt/geertw/ip-anonymizer.svg)](https://packagist.org/packages/geertw/ip-anonymizer)
+[![License](https://img.shields.io/packagist/l/geertw/ip-anonymizer.svg)](https://packagist.org/packages/geertw/ip-anonymizer)
 
 # IP address anonymizer for PHP
 
