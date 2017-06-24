@@ -1,4 +1,5 @@
 <?php
+
 namespace geertw\IpAnonymizer;
 
 class IpAnonymizer {
@@ -11,6 +12,17 @@ class IpAnonymizer {
      * @var string IPv6 netmask used to anonymize IPv6 address.
      */
     public $ipv6NetMask = "ffff:ffff:ffff:ffff:0000:0000:0000:0000";
+
+    /**
+     * Anonymize an IPv4 or IPv6 address.
+     *
+     * @param $address string IP address that must be anonymized
+     * @return string The anonymized IP address. Returns an empty string when the IP address is invalid.
+     */
+    public static function anonymizeIp($address) {
+        $anonymizer = new IpAnonymizer();
+        return $anonymizer->anonymize($address);
+    }
 
     /**
      * Anonymize an IPv4 or IPv6 address.
