@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/angelk/php-ip-anonymizer.svg?branch=master)](https://travis-ci.org/angelk/php-ip-anonymizer)
+
+
 # IP address anonymizer for PHP
 
 This is a library for PHP to anonymize IP addresses. This makes it easier to respect user privacy, and it makes it more
