@@ -1,20 +1,27 @@
 {
-    "name": "geertw/ip-anonymizer",
+    "name": "potaka/ip-anonymizer",
     "description": "IPv4 and IPv6 address anonymizer",
     "type": "library",
     "require-dev": {
+        "phpunit/phpunit": "^7.1"
     },
     "license": "MIT",
     "authors": [
         {
             "name": "Geert Wirken",
             "email": "geert@gwirken.nl"
+        },
+        {
+            "name": "Angel Koilov",
+            "email": "angel.koilov@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": ">=7.1"
+    },
     "autoload": {
         "psr-4": {
-            "geertw\\IpAnonymizer\\": "src"
+            "Potaka\\IpAnonymizer\\": "src"
         }
     }
 }

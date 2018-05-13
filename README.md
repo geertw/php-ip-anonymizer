@@ -1,6 +1,5 @@
-[![Latest Stable Version](https://img.shields.io/packagist/v/geertw/ip-anonymizer.svg)](https://packagist.org/packages/geertw/ip-anonymizer)
-[![Total Downloads](https://img.shields.io/packagist/dt/geertw/ip-anonymizer.svg)](https://packagist.org/packages/geertw/ip-anonymizer)
-[![License](https://img.shields.io/packagist/l/geertw/ip-anonymizer.svg)](https://packagist.org/packages/geertw/ip-anonymizer)
+[![Build Status](https://travis-ci.org/angelk/php-ip-anonymizer.svg?branch=master)](https://travis-ci.org/angelk/php-ip-anonymizer)
+
 
 # IP address anonymizer for PHP
 
@@ -20,8 +19,7 @@ The IPv6 address `2a03:2880:2110:df07:face:b00c::1` is anonymized by default to 
 
 ```php
 <?php
-use geertw\IpAnonymizer\IpAnonymizer;
-require 'vendor/autoload.php';
+use Potaka\IpAnonymizer\IpAnonymizer;
 
 $ipAnonymizer = new IpAnonymizer();
 
