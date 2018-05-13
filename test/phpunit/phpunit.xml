@@ -1,0 +1,15 @@
+<phpunit bootstrap="bootstrap.php" colors="true">
+    <testsuites>
+        <testsuite name="">
+            <directory>Test</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist>
+            <directory>../../src</directory>
+        </whitelist>
+    </filter>
+    <logging>
+        <log type="coverage-html" target="codeCoverageLog" charset="UTF-8" highlight="true"/>
+    </logging>
+</phpunit>
