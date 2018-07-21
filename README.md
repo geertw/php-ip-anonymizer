@@ -14,7 +14,7 @@ The default settings anonymize an IP address to a /24 subnet (IPv4) or a /64 sub
 
 For instance, the IPv4 address `192.168.178.123` is anonymized by default to `192.168.178.0`.
 
-The IPv6 address `2a03:2880:2110:df07:face:b00c::1` is anonymized by default to `2610:28:3090:3001::`.
+The IPv6 address `2a03:2880:2110:df07:face:b00c::1` is anonymized by default to `2a03:2880:2110:df07::`.
 
 ## Example
 
