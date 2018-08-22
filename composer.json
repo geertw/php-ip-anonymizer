@@ -1,20 +1,21 @@
 {
-    "name": "geertw/ip-anonymizer",
-    "description": "IPv4 and IPv6 address anonymizer",
-    "type": "library",
-    "require-dev": {
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Geert Wirken",
-            "email": "geert@gwirken.nl"
-        }
-    ],
-    "require": {},
-    "autoload": {
-        "psr-4": {
-            "geertw\\IpAnonymizer\\": "src"
-        }
+  "name": "geertw/ip-anonymizer",
+  "description": "IPv4 and IPv6 address anonymizer",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Geert Wirken",
+      "email": "geert@gwirken.nl"
     }
+  ],
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "^7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "geertw\\IpAnonymizer\\": "src"
+    }
+  }
 }
