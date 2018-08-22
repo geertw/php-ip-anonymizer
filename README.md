@@ -61,4 +61,4 @@ var_dump(IpAnonymizer::anonymizeIp('2610:28:3090:3001:dead:beef:cafe:fed3'));
 
 ## License
 
-This library is licensed under the MIT License. See the LICENSE file for the full license.
+This library is licensed under the MIT License. See the [LICENSE](LICENSE) file for the full license.
